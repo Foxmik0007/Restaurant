@@ -1,9 +1,11 @@
-package com.example.restaurant;
+package com.example.restaurant.Staff;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.Button;
+
+import com.example.restaurant.R;
 
 public class listeEmploye extends AppCompatActivity {
 

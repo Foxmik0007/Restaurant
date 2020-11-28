@@ -1,4 +1,6 @@
-package com.example.restaurant;
+package com.example.restaurant.Food;
+
+import com.example.restaurant.Food.Plat;
 
 import java.util.List;
 

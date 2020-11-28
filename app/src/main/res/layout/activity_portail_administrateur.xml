@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".portailAdministrateur">
+    tools:context="com.example.restaurant.Administrateur.portailAdministrateur">
 
     <Button
         android:id="@+id/listeEmploye"
         android:layout_width="500px"
         android:layout_height="wrap_content"
         android:layout_marginTop="116dp"
-        android:text="Voir Liste Employé"
+        android:text="Employé"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +22,7 @@
         android:layout_width="500px"
         android:layout_height="wrap_content"
         android:layout_marginTop="60dp"
-        android:text="Voir les plats disponibles"
+        android:text="Plats disponibles"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +33,7 @@
         android:layout_width="500px"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
-        android:text="Voir Ressources disponibles"
+        android:text="Ressources disponibles"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/PlatsDisponible" />

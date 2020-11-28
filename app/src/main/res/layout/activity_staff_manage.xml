@@ -4,39 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Staff.listeEmploye">
+    tools:context=".Administrateur.staffManage">
 
     <Button
-        android:id="@+id/listeManager"
-        android:layout_width="500px"
+        android:id="@+id/managerManage"
+        android:layout_width="400px"
         android:layout_height="wrap_content"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="200dp"
         android:text="Manager"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/listeServeur"
-        android:layout_width="500px"
+        android:id="@+id/serverManage"
+        android:layout_width="400px"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="56dp"
         android:text="Serveur"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/listeManager" />
+        app:layout_constraintTop_toBottomOf="@+id/managerManage" />
 
     <Button
-        android:id="@+id/listeCuisinier"
-        android:layout_width="500px"
+        android:id="@+id/cookerManage"
+        android:layout_width="400px"
         android:layout_height="wrap_content"
         android:text="Cuisinier"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.513"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/listeServeur"
-        app:layout_constraintVertical_bias="0.223" />
+        app:layout_constraintTop_toBottomOf="@+id/serverManage"
+        app:layout_constraintVertical_bias="0.184" />
 </androidx.constraintlayout.widget.ConstraintLayout>

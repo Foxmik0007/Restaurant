@@ -1,4 +1,6 @@
-package com.example.restaurant;
+package com.example.restaurant.Staff;
+
+import com.example.restaurant.Personne;
 
 public class Cuisinier extends Personne {
     private Manager manager;

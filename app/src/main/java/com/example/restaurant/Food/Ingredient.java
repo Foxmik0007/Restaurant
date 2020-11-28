@@ -1,4 +1,4 @@
-package com.example.restaurant;
+package com.example.restaurant.Food;
 
 public class Ingredient {
     private String nom;
